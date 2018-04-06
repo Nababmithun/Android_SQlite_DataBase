@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_contact_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    tools:context="androidsqlite.com.sqliteyaz11february.ContactDetailsActivity">
+
+
+
+
+   <TextView
+       android:textColor="#76FF03"
+       android:textStyle="bold"
+       android:layout_gravity="center"
+       android:gravity="center"
+       android:layout_width="match_parent"
+       android:text="Contacts Book"
+       android:textSize="39dp"
+       android:layout_height="wrap_content" />
+
+
+
+    <EditText
+
+        android:layout_marginTop="60dp"
+        android:textSize="29dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:hint="First Name:"
+        android:id="@+id/editText"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+
+        android:textSize="29dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:hint="Last Name:"
+        android:layout_below="@id/editText"
+        android:layout_marginTop="19dp"
+        android:id="@+id/editText2"
+
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_marginTop="19dp"
+        android:textSize="29dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:hint="Phone:"
+        android:layout_below="@id/editText2"
+        android:id="@+id/editText3"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:textColor="#6200EA"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textSize="29dp"
+        android:text="SAVE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_SAVE"
+        android:layout_below="@+id/editText3"
+        android:layout_alignParentStart="true" />
+
+    <Button
+       android:textColor="#880E4F"
+        android:textStyle="bold"
+        android:textSize="29dp"
+        android:text="Update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:id="@+id/btn_update"
+        android:layout_below="@+id/button_SAVE"
+        android:layout_alignParentStart="true" />
+
+   <TextView
+       android:textStyle="italic"
+       android:textColor="#76FF03"
+       android:gravity="center"
+       android:textSize="25dp"
+       android:layout_marginTop="460dp"
+       android:text="Apps by Mithun Kumar Riju.GB"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+
+</RelativeLayout>
